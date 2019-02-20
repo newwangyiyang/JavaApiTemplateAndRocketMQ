@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.yiyang.mysqldemo.mapper.DemoTestMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.yiyang.mysqldemo.entity.DemoTestEntity">
+        <id column="id" property="id" />
+        <result column="ban" property="ban" />
+        <result column="my_bigint" property="myBigint" />
+        <result column="my_int" property="myInt" />
+        <result column="my_datetime" property="myDatetime" />
+        <result column="my_timestamp" property="myTimestamp" />
+        <result column="my_double" property="myDouble" />
+        <result column="my_decmial" property="myDecmial" />
+        <result column="my_char" property="myChar" />
+        <result column="my_varchar" property="myVarchar" />
+        <result column="my_enum" property="myEnum" />
+    </resultMap>
+
+</mapper>
