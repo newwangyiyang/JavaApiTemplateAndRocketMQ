@@ -1,6 +1,5 @@
-package cn.yiyang.common.consumer;
+package cn.yiyang.rocket_mq.consumer;
 
-import cn.yiyang.common.utils.MessageUtils;
 import com.maihaoche.starter.mq.annotation.MQConsumer;
 import com.maihaoche.starter.mq.base.AbstractMQPushConsumer;
 import lombok.extern.slf4j.Slf4j;

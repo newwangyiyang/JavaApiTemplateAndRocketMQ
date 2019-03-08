@@ -61,7 +61,7 @@ spring:
   rocketmq:
       name-server-address: 192.168.5.66:9876
       # 可选, 如果无需发送消息则忽略该配置
-      producer-group: local_pufang_producer
+      producer-group: wyy_producer_group
       # 发送超时配置毫秒数, 可选, 默认3000
       send-msg-timeout: 5000
       # 追溯消息具体消费情况的开关，默认打开

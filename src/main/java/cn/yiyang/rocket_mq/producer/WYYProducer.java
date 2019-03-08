@@ -1,4 +1,4 @@
-package cn.yiyang.common.producer;
+package cn.yiyang.rocket_mq.producer;
 
 import com.maihaoche.starter.mq.annotation.MQProducer;
 import com.maihaoche.starter.mq.base.AbstractMQProducer;
